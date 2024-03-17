@@ -1,0 +1,114 @@
+/* src/components/LoginForm.css */
+
+/* Common styles */
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #3897f0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3578e5;
+  }
+  
+  /* Styles for mobile screens */
+  @media screen and (max-width: 767px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  /* Styles for desktop screens */
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 400px;
+      padding: 20px;
+    }
+  }
+
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
+  }
+  .login-form{
+    width: 320px;
+    border: 1px solid #dbdbdb;
+    padding: 60px 60px 60px;
+   
+  }
+
+  .login-form img{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .login-form input{
+    background-color: #fafafa;
+    padding: 15px 0px 15px 8px;
+  }
+
+  .login-form a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #00376b;
+    font-size: 14px;
+  }
+
+  .login-form hr{
+    margin: 30px 0px;
+    border-color: #dbdbdb9f;
+    outline: #dbdbdba3;
+  }
+
+  .img-grp{
+    margin: 20px 0px;
+  }
+
+  .img-grp img{
+    margin: 0px 10px;
+  }
+
+
+  @media screen and (max-width: 767px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+    .login-form{
+        width: auto;
+    }
+    
+  }
